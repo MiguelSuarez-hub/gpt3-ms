@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './navbar.css';
+import './feature .css';
 
 const Feature = () => {
   return (
