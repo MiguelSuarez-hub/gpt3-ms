@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Blog, Footer, Header, Possibility, Features, WhatGPT3} from './containers';
 import { Navbar, Brand, Cta } from './components';
+import './App.css';
 
 const App = () => {
   return (
