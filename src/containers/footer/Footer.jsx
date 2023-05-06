@@ -49,9 +49,13 @@ const Footer = () => {
       <div className='gpt3__footer-developed'>
         <p>This webapp was developed with React and Vite</p>
         <div className='gpt3__footer-developed_content'>
-          <img src={reactLogo} alt='react logo' />
+          <a href="https://vitejs.dev" target="_blank">
+            <img src={viteLogo} className="logo" alt="Vite logo" />
+          </a>
           <p>+</p>
-          <img src={viteLogo} alt='vite logo' />
+          <a href="https://react.dev" target="_blank">
+            <img src={reactLogo} className="logo react" alt="React logo" />
+          </a>
         </div>     
       </div>
       <div className='gpt3__footer-copyright'>
