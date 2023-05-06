@@ -2,6 +2,8 @@ import React from 'react';
 
 import './footer.css';
 import gpt3Logo from '../../assets/logo.svg';
+import reactLogo from '../../assets/react.svg';
+import viteLogo from '../../assets/vite.svg';
 
 const linksData = [
   {
@@ -43,6 +45,14 @@ const Footer = () => {
         {linksData.map((item, index) =>
         <LinkColumn title={item.title} links={item.links} key={item.title + index}/>
         )}     
+      </div>
+      <div className='gpt3__footer-developed'>
+        <p>This webapp was developed with React and Vite</p>
+        <div className='gpt3__footer-developed_content'>
+          <img src={reactLogo} alt='react logo' />
+          <p>+</p>
+          <img src={viteLogo} alt='vite logo' />
+        </div>     
       </div>
       <div className='gpt3__footer-copyright'>
         <p>© 2021 GPT-3. All rights reserved.</p>

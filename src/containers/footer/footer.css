@@ -105,6 +105,22 @@
   margin: 1rem;
 }
 
+.gpt3__footer-developed p {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 1rem;
+}
+
+.gpt3__footer-developed_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 850px) {
   .gpt3__footer-heading h1 {
     font-size: 44px;
